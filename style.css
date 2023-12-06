@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    /* margin: 20px auto 0px; */
+    font-size: 80px;
+    color:rgba(38, 0, 255, 0.801);
+}
+span{
+   color:rgb(255, 145, 0); 
+}
+button{
+    display: block;
+   margin: 20px auto 0px;
+   font-size: 36px;
+    padding: 8px 45px;
+    border-radius: 20px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+}

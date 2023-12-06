@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Click the <span>GPA</span> button to get your grade.</h1>
+
+    <button onclick="myFunction()">GPA</button>
+    
+    <p id="demo"></p> 
+
+<script>
+
+function myFunction(){
+
+    let num= prompt("Enter your number",55);
+    
+    if(num>=0 && num<=30){
+        console.log('You failed the exam.');
+    }
+    else if(num>=33 && num<=39){
+        console.log('You passed the exam with grade D.');
+    }
+    else if(num>=40 && num<=49){
+        console.log('Your grade is C.');
+    }
+    else if(num>=50 && num<=59){
+        console.log('Your grade is B.');
+    }
+    else if(num>=60 && num<=69){
+        console.log('Your grade is A-.');
+    }
+    else if(num>=70 && num<=79){
+        console.log('Your grade is A.');
+    }
+    else if(num>=80 && num<=100){
+        console.log('Hurrah! You got A+.');
+    }
+    else{
+        console.log('You press wrong number. Please enter number between 0-100 digit. ')
+    }
+
+}
+
+   
+
+</script>
+
+</body>
+</html>
